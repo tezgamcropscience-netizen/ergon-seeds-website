@@ -381,19 +381,20 @@
 
         .product-card {
             background: white;
-            border-radius: 15px;
+            border-radius: 20px;
             overflow: hidden;
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
-            transition: transform 0.4s ease, box-shadow 0.4s ease;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            position: relative;
             border: 1px solid rgba(0, 0, 0, 0.03);
             text-align: left;
-            position: relative;
             z-index: 1;
         }
 
         .product-card:hover {
-            transform: translateY(-12px);
+            transform: translateY(-15px) scale(1.02);
             box-shadow: 0 20px 40px rgba(17, 129, 81, 0.15);
+            border-color: var(--leaf-green);
             z-index: 2;
         }
 
@@ -1118,8 +1119,7 @@
                                     alt="Eggplant"><span>Eggplant seeds</span></a>
                             <a href="#product-information" class="veg-item"><img src="logo.png"
                                     alt="Spinach"><span>Spinach seeds</span></a>
-                            <a href="#product-information" class="veg-item"><img
-                                    src="TIGER F-1 HYBIRD BITTER GOURD .jpeg"
+                            <a href="#product-information" class="veg-item"><img src="bitter_gourd_tiger.jpeg"
                                     alt="Tiger F-1 Hybrid Bitter Gourd"><span>Tiger F-1 Hybrid Bitter
                                     Gourd</span></a>
                             <a href="#product-information" class="veg-item"><img src="logo.png"
@@ -1241,7 +1241,7 @@
 
             <div class="product-card">
                 <div class="product-image-container">
-                    <img src="UMANG OKRA HYBIRD SEEDS F-1 .jpeg" alt="Okra Umang F-1" class="product-image">
+                    <img src="okra_umang_hybrid.jpeg" alt="Okra Umang F-1" class="product-image">
                 </div>
                 <div class="product-info">
                     <span class="tag">Hybrid Okra</span>
@@ -1268,8 +1268,7 @@
 
             <div class="product-card">
                 <div class="product-image-container">
-                    <img src="TIGER F-1 HYBIRD BITTER GOURD .jpeg" alt="Tiger F-1 Hybrid Bitter Gourd"
-                        class="product-image">
+                    <img src="bitter_gourd_tiger.jpeg" alt="Tiger F-1 Hybrid Bitter Gourd" class="product-image">
                 </div>
                 <div class="product-info">
                     <span class="tag">Hybrid Bitter Gourd</span>
@@ -1946,7 +1945,7 @@
 
             <div class="product-card">
                 <div class="product-image-container">
-                    <img src="pea_classic_1.jpg" alt="Pea Classic" class="product-image">
+                    <img src="logo.png" alt="Pea Classic" class="product-image">
                 </div>
                 <div class="product-info">
                     <span class="tag">Selection Pea</span>
@@ -1961,7 +1960,7 @@
 
             <div class="product-card">
                 <div class="product-image-container">
-                    <img src="french_bean_osaka.jpg" alt="French Bean Osaka" class="product-image">
+                    <img src="logo.png" alt="French Bean Osaka" class="product-image">
                 </div>
                 <div class="product-info">
                     <span class="tag">French Bean</span>
@@ -2651,7 +2650,7 @@
                 tag: 'Hybrid Bitter Gourd',
                 title: 'TIGER F-1 HYBRID',
                 description: 'The sole variety guaranteeing an abundant yield due to its vigorous, disease-resistant plant. This early-maturing, attractive green bitter gourd is the premier choice of successful farmers.',
-                images: ['TIGER F-1 HYBIRD BITTER GOURD .jpeg'],
+                images: ['bitter_gourd_tiger.jpeg'],
                 specs: {
                     'Fruit Length': '20 to 24 Centimeters',
                     'Appearance': 'Attractive Green Color, Highly Eye-Catching',
@@ -3031,7 +3030,7 @@
                 tag: 'Hybrid Okra',
                 title: 'OKRA UMANG F-1',
                 description: 'A vigorous and high-yielding hybrid okra. It features beautiful, tender, and ridged dark green pods that are heavily demanded in the market.',
-                images: ['UMANG OKRA HYBIRD SEEDS F-1 .jpeg'],
+                images: ['okra_umang_hybrid.jpeg'],
                 specs: {
                     'Fruit Quality': 'Tender, dark green, and beautifully ridged pods',
                     'Yield': 'Prolific and continuous yielding capability',
